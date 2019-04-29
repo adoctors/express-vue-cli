@@ -1,0 +1,28 @@
+{
+  "name": "express-vue-cli",
+  "version": "1.0.0",
+  "description": "npm install all",
+  "main": "index.js",
+  "scripts": {
+    "vue": "cd view && npm install",
+    "express": "cd server && npm install",
+    "install": "npm run vue && npm run express",
+    "runserver": "cd server && node ./bin/www",
+    "runvue": "cd view && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adoctors/express-vue-cli.git"
+  },
+  "keywords": [
+    "npm",
+    "install",
+    "all"
+  ],
+  "author": "adoctors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adoctors/express-vue-cli/issues"
+  },
+  "homepage": "https://github.com/adoctors/express-vue-cli#readme"
+}
